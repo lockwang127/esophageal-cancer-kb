@@ -1,0 +1,110 @@
+[
+  {
+    "head": "食管癌手术",
+    "relation": "McKeown术式入路",
+    "tail": "经右胸+腹正中切口+颈部吻合",
+    "source": "胸外科手术学",
+    "evidence": "适用于胸上段食管癌",
+    "domain": "treatment",
+    "confidence": 0.95
+  },
+  {
+    "head": "食管癌手术",
+    "relation": "Ivor-Lewis术式入路",
+    "tail": "经右胸+上腹正中切口+胸顶部吻合",
+    "source": "胸外科手术学",
+    "evidence": "适用于胸中下段食管癌",
+    "domain": "treatment",
+    "confidence": 0.95
+  },
+  {
+    "head": "食管癌手术",
+    "relation": "Orringer术式入路",
+    "tail": "经膈裂孔+腹部切口+颈部吻合",
+    "source": "胸外科手术学",
+    "evidence": "适用于不能耐受开胸患者",
+    "domain": "treatment",
+    "confidence": 0.90
+  },
+  {
+    "head": "颈部食管癌",
+    "relation": "手术方式",
+    "tail": "喉咽全切除+游离空肠移植",
+    "source": "头颈外科指南",
+    "evidence": "需要联合器官切除和重建",
+    "domain": "treatment",
+    "confidence": 0.90
+  },
+  {
+    "head": "食管癌吻合口瘘",
+    "relation": "预防措施",
+    "tail": "带蒂网膜瓣包裹吻合口",
+    "source": "外科手术共识",
+    "evidence": "改善局部血供降低瘘发生",
+    "domain": "treatment",
+    "confidence": 0.85
+  },
+  {
+    "head": "食管癌围手术期",
+    "relation": "营养支持",
+    "tail": "术前肠内营养、术后鼻饲管/空肠造瘘",
+    "source": "CSCO指南2024",
+    "evidence": "营养不良影响预后和恢复",
+    "domain": "treatment",
+    "confidence": 0.95
+  },
+  {
+    "head": "食管癌加速康复外科",
+    "relation": "核心措施",
+    "tail": "早期下床、早期经口进食、多模式镇痛",
+    "source": "ERAS指南",
+    "evidence": "缩短住院时间促进恢复",
+    "domain": "treatment",
+    "confidence": 0.90
+  },
+  {
+    "head": "食管癌手术",
+    "relation": "淋巴结清扫范围",
+    "tail": "至少15枚淋巴结",
+    "source": "CSCO指南2024",
+    "evidence": "确保准确分期",
+    "domain": "treatment",
+    "confidence": 0.95
+  },
+  {
+    "head": "胸段食管癌",
+    "relation": "推荐入路",
+    "tail": "微创食管切除术（MIE）",
+    "source": "胸外科共识",
+    "evidence": "减少创伤促进恢复",
+    "domain": "treatment",
+    "confidence": 0.90
+  },
+  {
+    "head": "食管癌术后",
+    "relation": "常见并发症",
+    "tail": "肺部感染、吻合口瘘、喉返神经损伤",
+    "source": "外科手术学",
+    "evidence": "需要积极预防和处理",
+    "domain": "treatment",
+    "confidence": 0.95
+  },
+  {
+    "head": "食管癌放疗",
+    "relation": "根治性放疗剂量",
+    "tail": "50-60Gy/25-30次",
+    "source": "CSCO指南2024",
+    "evidence": "同步放化疗标准剂量",
+    "domain": "treatment",
+    "confidence": 0.95
+  },
+  {
+    "head": "食管癌近距离放疗",
+    "relation": "适应症",
+    "tail": "局部复发、姑息性治疗",
+    "source": "放射肿瘤学指南",
+    "evidence": "近距离照射增加局部剂量",
+    "domain": "treatment",
+    "confidence": 0.85
+  }
+]

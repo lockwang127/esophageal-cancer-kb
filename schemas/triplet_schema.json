@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Knowledge Triplet",
+  "description": "知识三元组结构定义",
+  "type": "object",
+  "required": ["head", "relation", "tail", "source", "evidence", "domain", "confidence"],
+  "properties": {
+    "head": {
+      "type": "string",
+      "description": "知识三元组头实体"
+    },
+    "relation": {
+      "type": "string",
+      "description": "头尾实体之间的关系"
+    },
+    "tail": {
+      "type": "string",
+      "description": "知识三元组尾实体"
+    },
+    "source": {
+      "type": "string",
+      "description": "数据来源/发布机构"
+    },
+    "evidence": {
+      "type": "string",
+      "description": "证据描述或文献/研究名称"
+    },
+    "domain": {
+      "type": "string",
+      "description": "知识领域分类",
+      "enum": ["epidemiology", "biomarkers", "csco_2024", "treatment"]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "置信度评分 0-1"
+    },
+    "pmid": {
+      "type": "string",
+      "description": "PubMed文献ID（可选）"
+    }
+  }
+}

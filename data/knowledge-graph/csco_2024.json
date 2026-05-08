@@ -1,0 +1,122 @@
+[
+  {
+    "head": "可切除食管癌",
+    "relation": "标准治疗策略",
+    "tail": "新辅助放化疗+手术",
+    "source": "CSCO指南2024",
+    "evidence": "CROSS研究确立的标准方案",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "20818856"
+  },
+  {
+    "head": "新辅助治疗方案",
+    "relation": "CROSS方案",
+    "tail": "紫杉醇+卡铂（周疗）+41.4Gy放疗",
+    "source": "CROSS研究",
+    "evidence": "全球广泛认可的标准方案",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "20818856"
+  },
+  {
+    "head": "中国新辅助化疗方案",
+    "relation": "白蛋白紫杉醇+顺铂",
+    "tail": "中国特色方案",
+    "source": "CSCO指南2024",
+    "evidence": "基于中国人群循证医学证据",
+    "domain": "csco_2024",
+    "confidence": 0.90,
+    "pmid": "32133832"
+  },
+  {
+    "head": "不可切除食管癌",
+    "relation": "标准治疗",
+    "tail": "根治性同步放化疗",
+    "source": "CSCO指南2024",
+    "evidence": "CROSS方案放化疗",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "20818856"
+  },
+  {
+    "head": "晚期食管癌",
+    "relation": "一线治疗",
+    "tail": "化疗+免疫治疗",
+    "source": "CSCO指南2024",
+    "evidence": "KEYNOTE-590等研究支持",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "32804559"
+  },
+  {
+    "head": "晚期食管癌",
+    "relation": "免疫治疗药物",
+    "tail": "帕博利珠单抗、卡瑞利珠单抗、信迪利单抗",
+    "source": "CSCO指南2024",
+    "evidence": "多个PD-1抑制剂获批适应症",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "34646306"
+  },
+  {
+    "head": "食管鳞癌",
+    "relation": "化疗方案",
+    "tail": "紫杉醇+顺铂/卡铂",
+    "source": "CSCO指南2024",
+    "evidence": "基础化疗方案",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "32133832"
+  },
+  {
+    "head": "HER2阳性食管腺癌",
+    "relation": "靶向治疗",
+    "tail": "曲妥珠单抗+化疗",
+    "source": "CSCO指南2024",
+    "evidence": "ToGA研究确立",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "22586654"
+  },
+  {
+    "head": "食管癌术后辅助治疗",
+    "relation": "指征",
+    "tail": "R1/R2切除、淋巴结转移、T3以上",
+    "source": "CSCO指南2024",
+    "evidence": "高危因素患者推荐辅助治疗",
+    "domain": "csco_2024",
+    "confidence": 0.90,
+    "pmid": "32133832"
+  },
+  {
+    "head": "食管癌二线治疗",
+    "relation": "化疗选择",
+    "tail": "多西他赛、紫杉醇、伊立替康",
+    "source": "CSCO指南2024",
+    "evidence": "单药或联合方案",
+    "domain": "csco_2024",
+    "confidence": 0.90,
+    "pmid": "32133832"
+  },
+  {
+    "head": "局部晚期食管癌",
+    "relation": "新辅助免疫治疗",
+    "tail": "帕博利珠单抗+化疗",
+    "source": "KEYNOTE-590",
+    "evidence": "新辅助阶段免疫治疗探索",
+    "domain": "csco_2024",
+    "confidence": 0.85,
+    "pmid": "32804559"
+  },
+  {
+    "head": "食管癌MDT",
+    "relation": "治疗模式",
+    "tail": "多学科讨论制定综合治疗方案",
+    "source": "CSCO指南2024",
+    "evidence": "贯穿诊疗全程",
+    "domain": "csco_2024",
+    "confidence": 0.95,
+    "pmid": "32133832"
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "head": "食管癌",
+    "relation": "2022年中国新发病例数",
+    "tail": "22.40万",
+    "source": "国家癌症中心",
+    "evidence": "2022年中国恶性肿瘤流行情况分析",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": "36942248"
+  },
+  {
+    "head": "食管癌",
+    "relation": "2022年中国死亡人数",
+    "tail": "约18万",
+    "source": "国家癌症中心",
+    "evidence": "2022年中国恶性肿瘤流行情况分析",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": "36942248"
+  },
+  {
+    "head": "食管癌",
+    "relation": "病死比",
+    "tail": "约80%",
+    "source": "国家癌症中心统计数据",
+    "evidence": "发病与死亡比值显示预后较差",
+    "domain": "epidemiology",
+    "confidence": 0.90,
+    "pmid": "36942248"
+  },
+  {
+    "head": "食管癌病理类型",
+    "relation": "中国主要类型",
+    "tail": "鳞状细胞癌（占比90%）",
+    "source": "中国临床肿瘤学会",
+    "evidence": "中国食管癌以鳞癌为主，具有地域特色",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": "32133832"
+  },
+  {
+    "head": "食管腺癌",
+    "relation": "中国发病率",
+    "tail": "少见",
+    "source": "中国临床肿瘤学会",
+    "evidence": "腺癌在中国食管癌中占比低",
+    "domain": "epidemiology",
+    "confidence": 0.90,
+    "pmid": "32133832"
+  },
+  {
+    "head": "食管癌高发地区",
+    "relation": "地理分布",
+    "tail": "华北地区、华中地区",
+    "source": "中国恶性肿瘤登记年报",
+    "evidence": "太行山脉附近省份高发",
+    "domain": "epidemiology",
+    "confidence": 0.90,
+    "pmid": "29561180"
+  },
+  {
+    "head": "食管癌危险因素",
+    "relation": "饮食因素",
+    "tail": "热饮（65℃以上）、腌制食品",
+    "source": "IARC",
+    "evidence": "WHO IARC确认65℃以上热饮为2A类致癌物",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": "2999282"
+  },
+  {
+    "head": "食管癌危险因素",
+    "relation": "生活方式因素",
+    "tail": "吸烟、饮酒",
+    "source": "国际癌症研究机构",
+    "evidence": "吸烟和饮酒是明确危险因素",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": "15161273"
+  },
+  {
+    "head": "食管癌",
+    "relation": "性别分布",
+    "tail": "男性发病率约为女性3倍",
+    "source": "GLOBOCAN 2022",
+    "evidence": "男性明显高发",
+    "domain": "epidemiology",
+    "confidence": 0.95,
+    "pmid": "35642084"
+  },
+  {
+    "head": "食管癌",
+    "relation": "发病年龄高峰",
+    "tail": "60-70岁",
+    "source": "中国恶性肿瘤登记数据",
+    "evidence": "中老年人群高发",
+    "domain": "epidemiology",
+    "confidence": 0.90,
+    "pmid": "32133832"
+  },
+  {
+    "head": "食管鳞癌",
+    "relation": "与环境因素相关性",
+    "tail": "强相关",
+    "source": "流行病学研究",
+    "evidence": "生活方式和饮食影响显著",
+    "domain": "epidemiology",
+    "confidence": 0.90,
+    "pmid": "28824863"
+  },
+  {
+    "head": "食管癌五年生存率",
+    "relation": "中国数据",
+    "tail": "约30%（早期发现可提高至60-90%）",
+    "source": "中国癌症生存统计",
+    "evidence": "早期诊断对预后至关重要",
+    "domain": "epidemiology",
+    "confidence": 0.85
+  }
+]

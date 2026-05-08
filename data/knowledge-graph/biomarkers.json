@@ -1,0 +1,122 @@
+[
+  {
+    "head": "HER2",
+    "relation": "食管腺癌阳性率",
+    "tail": "约10-30%",
+    "source": "NCCN指南",
+    "evidence": "HER2过表达在食管腺癌中较鳞癌更常见",
+    "domain": "biomarkers",
+    "confidence": 0.90,
+    "pmid": "22586654"
+  },
+  {
+    "head": "HER2",
+    "relation": "食管鳞癌阳性率",
+    "tail": "较低（<10%）",
+    "source": "临床研究数据",
+    "evidence": "鳞癌中HER2阳性率显著低于腺癌",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": "24323029"
+  },
+  {
+    "head": "PD-L1",
+    "relation": "表达评估指标",
+    "tail": "CPS评分（综合阳性评分）",
+    "source": "CSCO指南2024",
+    "evidence": "CPS≥1可考虑免疫治疗",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "34646306"
+  },
+  {
+    "head": "PD-L1",
+    "relation": "食管鳞癌表达率",
+    "tail": "约40-50%",
+    "source": "KEYNOTE-590等研究",
+    "evidence": "中国食管鳞癌PD-L1高表达",
+    "domain": "biomarkers",
+    "confidence": 0.90,
+    "pmid": "32804559"
+  },
+  {
+    "head": "MSI",
+    "relation": "食管癌检测意义",
+    "tail": "指导免疫治疗选择",
+    "source": "CSCO指南2024",
+    "evidence": "MSI-H/dMMR患者可从免疫治疗获益",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "28548155"
+  },
+  {
+    "head": "MSI-H",
+    "relation": "食管癌发生率",
+    "tail": "约2-5%",
+    "source": "癌症基因图谱数据",
+    "evidence": "属于少见分子亚型",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": "27400912"
+  },
+  {
+    "head": "TMB",
+    "relation": "高TMB阈值",
+    "tail": "≥10 mut/Mb",
+    "source": "NCCN指南",
+    "evidence": "高TMB可考虑免疫治疗",
+    "domain": "biomarkers",
+    "confidence": 0.90,
+    "pmid": "29634428"
+  },
+  {
+    "head": "TMB",
+    "relation": "食管癌中位TMB",
+    "tail": "约3-5 mut/Mb",
+    "source": "临床研究数据",
+    "evidence": "整体TMB相对较低",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": "29098234"
+  },
+  {
+    "head": "TP53",
+    "relation": "食管癌突变频率",
+    "tail": "约80-90%",
+    "source": "癌症基因图谱(TCGA)",
+    "evidence": "最常见的驱动基因突变",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "27401151"
+  },
+  {
+    "head": "NOTCH1",
+    "relation": "食管癌突变频率",
+    "tail": "约10-20%",
+    "source": "全基因组测序研究",
+    "evidence": "鳞癌中更常见",
+    "domain": "biomarkers",
+    "confidence": 0.85,
+    "pmid": "26335609"
+  },
+  {
+    "head": "FGFR1",
+    "relation": "食管癌扩增率",
+    "tail": "约5-10%",
+    "source": "临床研究",
+    "evidence": "可能成为治疗靶点",
+    "domain": "biomarkers",
+    "confidence": 0.80,
+    "pmid": "24562380"
+  },
+  {
+    "head": "免疫治疗预测标志物",
+    "relation": "包括",
+    "tail": "PD-L1表达、MSI状态、TMB",
+    "source": "CSCO指南2024",
+    "evidence": "多种标志物指导免疫治疗",
+    "domain": "biomarkers",
+    "confidence": 0.95,
+    "pmid": "34646306"
+  }
+]
