@@ -1,0 +1,333 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/esophageal-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "食管癌新靶点与新药研发知识图谱",
+  "domain": "new_targets_drug_development",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "CLDN18.2抑制剂",
+      "tail": "Zolbetuximab等CLDN18.2单抗正在食管癌中探索",
+      "source": "FAST研究/新靶点研究",
+      "evidence": "CLDN18.2在约30-40%食管癌中表达",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "TIGIT抑制剂",
+      "tail": "Tiragolumab等TIGIT抑制剂与PD-1抑制剂联合探索",
+      "source": "临床前/早期临床研究",
+      "evidence": "TIGIT是新兴免疫检查点靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "LAG-3抑制剂",
+      "tail": "Relatlimab等LAG-3抑制剂联合PD-1抑制剂探索",
+      "source": "早期临床研究",
+      "evidence": "LAG-3是免疫治疗新靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "TIM-3抑制剂",
+      "tail": "TIM-3抑制剂单药或联合PD-1抑制剂正在研究",
+      "source": "早期临床研究",
+      "evidence": "TIM-3是T细胞耗竭标志物",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "NTRK抑制剂",
+      "tail": "拉罗替尼、恩曲替尼对NTRK融合食管癌有效",
+      "source": "篮子试验",
+      "evidence": "NTRK融合虽罕见但有靶向药物可用",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "FGFR抑制剂",
+      "tail": "Pemigatinib等FGFR抑制剂在FGFR异常食管癌中探索",
+      "source": "早期临床研究",
+      "evidence": "FGFR融合/突变是潜在治疗靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "MET抑制剂",
+      "tail": "Tepotinib、Capmatinib等MET抑制剂正在探索",
+      "source": "临床前/早期临床研究",
+      "evidence": "MET扩增是潜在治疗靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "CEA ADC",
+      "tail": "CEA抗体偶联药物正在食管癌中探索",
+      "source": "早期临床研究",
+      "evidence": "ADC是食管癌新药研发方向",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "HER2 ADC",
+      "tail": "Trastuzumab deruxtecan在HER2阳性食管癌中探索",
+      "source": "临床研究",
+      "evidence": "HER2 ADC疗效优于传统化疗",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "TROP2 ADC",
+      "tail": "Sacituzumab govitecan等TROP2 ADC正在实体瘤中探索",
+      "source": "临床前/早期临床研究",
+      "evidence": "TROP2在食管癌中高表达",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "DLL3靶向治疗",
+      "tail": "DLL3 ADC（如Rova-T）在神经内分泌分化食管癌中探索",
+      "source": "临床前研究",
+      "evidence": "DLL3在部分食管癌中表达",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.70
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "CSF-1R抑制剂",
+      "tail": "CSF-1R抑制剂调控肿瘤相关巨噬细胞",
+      "source": "临床前研究",
+      "evidence": "CSF-1R是免疫治疗联合靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "CCR4抑制剂",
+      "tail": "Mogamulizumab调控Treg正在研究中",
+      "source": "临床前研究",
+      "evidence": "CCR4参与Treg募集",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "CD47/SIRPα抑制剂",
+      "tail": "Magrolimab等CD47抑制剂正在食管癌中探索",
+      "source": "早期临床研究",
+      "evidence": "CD47是别吃我信号",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "B7-H3靶向治疗",
+      "tail": "B7-H3 ADC正在实体瘤中探索",
+      "source": "临床前/早期临床研究",
+      "evidence": "B7-H3在食管癌中高表达",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "STING激动剂",
+      "tail": "STING激动剂激活先天免疫正在探索",
+      "source": "临床前研究",
+      "evidence": "STING通路激活抗肿瘤免疫",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "TLR激动剂",
+      "tail": "TLR7/8激动剂激活免疫正在探索",
+      "source": "临床前研究",
+      "evidence": "TLR激动剂是免疫激动剂",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "CAR-T细胞治疗",
+      "tail": "CEA CAR-T、CLDN18.2 CAR-T正在食管癌中探索",
+      "source": "早期临床研究",
+      "evidence": "CAR-T是食管癌细胞治疗方向",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "TCR-T细胞治疗",
+      "tail": "NY-ESO-1 TCR-T等正在实体瘤中探索",
+      "source": "临床研究",
+      "evidence": "TCR-T利用肿瘤抗原靶向治疗",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "肿瘤疫苗",
+      "tail": "新抗原疫苗、癌睾抗原疫苗等在食管癌辅助治疗中探索",
+      "source": "临床研究",
+      "evidence": "肿瘤疫苗是食管癌免疫治疗方向",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.70
+    },
+    {
+      "head": "食管癌新靶点研发",
+      "relation": "溶瘤病毒",
+      "tail": "溶瘤病毒直接杀伤肿瘤并激活免疫",
+      "source": "临床前/早期临床研究",
+      "evidence": "溶瘤病毒是免疫激动疗法",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.70
+    },
+    {
+      "head": "食管癌新药研发方向",
+      "relation": "辅助/新辅助治疗",
+      "tail": "免疫检查点抑制剂在辅助/新辅助阶段探索",
+      "source": "III期临床研究",
+      "evidence": "辅助/新辅助免疫治疗是研发热点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌联合治疗策略",
+      "relation": "免疫+化疗",
+      "tail": "PD-1抑制剂+化疗已成为标准，更多组合正在探索",
+      "source": "临床研究",
+      "evidence": "免疫联合化疗是核心策略",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌联合治疗策略",
+      "relation": "免疫+免疫",
+      "tail": "PD-1/CTLA-4双抗、PD-1+CTLA-4联合正在探索",
+      "source": "临床研究",
+      "evidence": "双免疫联合扩大免疫应答",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌联合治疗策略",
+      "relation": "靶向+免疫",
+      "tail": "抗血管生成+PD-1抑制剂联合显示协同作用",
+      "source": "临床研究",
+      "evidence": "靶向+免疫是协同策略",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌联合治疗策略",
+      "relation": "放化疗+免疫",
+      "tail": "同步放化疗+免疫治疗正在III期研究中",
+      "source": "III期临床研究",
+      "evidence": "放化疗+免疫是协同策略",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌耐药机制研究",
+      "relation": "免疫逃逸",
+      "tail": "T细胞耗竭、immunosuppressive微环境导致免疫治疗耐药",
+      "source": "临床研究",
+      "evidence": "免疫微环境重塑是克服耐药关键",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌耐药机制研究",
+      "relation": "靶向耐药",
+      "tail": "旁路激活、基因突变导致靶向治疗耐药",
+      "source": "基础研究",
+      "evidence": "了解耐药机制指导后续治疗策略",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌精准医学",
+      "relation": "分子分型指导治疗",
+      "tail": "基于基因组学特征选择靶向/免疫治疗",
+      "source": "篮子试验研究",
+      "evidence": "分子标志物指导食管癌精准治疗",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌新靶点",
+      "relation": "VISTA",
+      "tail": "VISTA是T细胞负性调节分子",
+      "source": "基础研究",
+      "evidence": "VISTA在食管癌免疫微环境中高表达",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点",
+      "relation": "BTLA",
+      "tail": "BTLA是B/T细胞衰减器",
+      "source": "基础研究",
+      "evidence": "BTLA在食管癌中与PD-1协同抑制T细胞",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点",
+      "relation": "TGF-β抑制剂",
+      "tail": "TGF-β抑制剂与免疫治疗联合正在探索",
+      "source": "临床前研究",
+      "evidence": "TGF-β是食管癌潜在治疗靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新靶点",
+      "relation": "CXCR4抑制剂",
+      "tail": "CXCR4抑制剂调控肿瘤转移微环境",
+      "source": "临床前研究",
+      "evidence": "CXCR4参与食管癌转移",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.75
+    },
+    {
+      "head": "食管癌双特异性抗体",
+      "relation": "PD-1/CTLA-4双抗",
+      "tail": "Cadonilimab（AK104）等双抗正在食管癌中探索",
+      "source": "临床研究",
+      "evidence": "双特异性抗体同时靶向两个靶点",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌液体活检",
+      "relation": "ctDNA应用",
+      "tail": "ctDNA可监测治疗反应和耐药突变",
+      "source": "临床研究",
+      "evidence": "液体活检指导食管癌精准治疗",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌新药研发",
+      "relation": "中国创新药",
+      "tail": "卡瑞利珠单抗、信迪利单抗、替雷利珠单抗等已获批",
+      "source": "中国NMPA批准",
+      "evidence": "中国原研PD-1抑制剂走向世界",
+      "domain": "new_targets_drug_development",
+      "confidence": 0.95
+    }
+  ]
+}

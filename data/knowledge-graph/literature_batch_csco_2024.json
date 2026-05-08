@@ -1,0 +1,518 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/esophageal-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "食管癌CSCO 2024指南补充知识图谱",
+  "domain": "csco_guideline",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "CSCO食管癌指南2024",
+      "relation": "病理类型分层",
+      "tail": "鳞癌和腺癌分别推荐不同治疗策略",
+      "source": "CSCO食管癌诊疗指南2024",
+      "evidence": "中国食管癌以鳞癌为主，腺癌治疗参考胃癌",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "32133832"
+    },
+    {
+      "head": "可切除食管癌",
+      "relation": "标准治疗模式",
+      "tail": "新辅助放化疗+手术",
+      "source": "CSCO指南2024/CROSS研究",
+      "evidence": "CROSS方案是全球标准新辅助治疗",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "20818856"
+    },
+    {
+      "head": "新辅助CROSS方案",
+      "relation": "化疗方案",
+      "tail": "紫杉醇50mg/m²+卡铂AUC 2，周疗，共5周期",
+      "source": "CROSS研究/CSCO指南2024",
+      "evidence": "CROSS方案化疗部分",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "20818856"
+    },
+    {
+      "head": "新辅助CROSS方案",
+      "relation": "放疗剂量",
+      "tail": "41.4Gy/23次",
+      "source": "CROSS研究/CSCO指南2024",
+      "evidence": "新辅助放疗剂量",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "20818856"
+    },
+    {
+      "head": "中国新辅助化疗方案",
+      "relation": "白蛋白紫杉醇+顺铂",
+      "tail": "中国人群循证证据，与CROSS方案疗效相当",
+      "source": "CSCO指南2024/中国多中心研究",
+      "evidence": "白蛋白紫杉醇联合铂类在中国广泛应用",
+      "domain": "csco_guideline",
+      "confidence": 0.90,
+      "pmid": "32133832"
+    },
+    {
+      "head": "新辅助免疫治疗",
+      "relation": "代表研究",
+      "tail": "KEYNOTE-590、CITRUS-EC、ESCORT-NEO研究",
+      "source": "CSCO指南2024/最新研究",
+      "evidence": "新辅助免疫联合化疗显示病理完全缓解获益",
+      "domain": "csco_guideline",
+      "confidence": 0.85
+    },
+    {
+      "head": "局部晚期食管鳞癌",
+      "relation": "新辅助免疫+化疗",
+      "tail": "帕博利珠单抗+化疗、信迪利单抗+化疗、卡瑞利珠单抗+化疗",
+      "source": "CSCO指南2024",
+      "evidence": "多个国产PD-1抑制剂在新辅助阶段显示获益",
+      "domain": "csco_guideline",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌手术方式",
+      "relation": "McKeown术式",
+      "tail": "经右胸+腹正中切口+颈部吻合，适用于胸上段",
+      "source": "CSCO指南2024/胸外科手术学",
+      "evidence": "McKeown术式淋巴结清扫更彻底",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌手术方式",
+      "relation": "Ivor-Lewis术式",
+      "tail": "经右胸+上腹正中切口+胸顶部吻合，适用于胸中下段",
+      "source": "CSCO指南2024/胸外科手术学",
+      "evidence": "Ivor-Lewis术式吻合口瘘发生率较低",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌手术方式",
+      "relation": "微创食管切除术（MIE）",
+      "tail": "胸腔镜/腹腔镜或机器人辅助，创伤小恢复快",
+      "source": "CSCO指南2024",
+      "evidence": "MIE在经验丰富的中心安全可行",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌淋巴结清扫",
+      "relation": "胸腹二野清扫",
+      "tail": "包括胸部和腹部淋巴结",
+      "source": "CSCO指南2024",
+      "evidence": "胸腹二野清扫适用于大部分患者",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌淋巴结清扫",
+      "relation": "颈胸腹三野清扫",
+      "tail": "包括颈部、胸部和腹部淋巴结，适用于上段癌",
+      "source": "CSCO指南2024",
+      "evidence": "三野清扫增加喉返神经损伤风险",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌术后辅助治疗",
+      "relation": "指征",
+      "tail": "R1/R2切除、淋巴结转移、T4a或T3伴淋巴结转移",
+      "source": "CSCO指南2024",
+      "evidence": "高危因素患者需术后辅助治疗",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "32133832"
+    },
+    {
+      "head": "食管癌术后辅助免疫治疗",
+      "relation": "证据",
+      "tail": "卡瑞利珠单抗、信迪利单抗术后辅助治疗研究正在进行",
+      "source": "CSCO指南2024",
+      "evidence": "术后辅助免疫治疗价值正在探索",
+      "domain": "csco_guideline",
+      "confidence": 0.80
+    },
+    {
+      "head": "不可切除局部晚期食管癌",
+      "relation": "标准治疗",
+      "tail": "根治性同步放化疗",
+      "source": "CSCO指南2024",
+      "evidence": "CROSS方案是标准根治性治疗",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "20818856"
+    },
+    {
+      "head": "根治性同步放化疗",
+      "relation": "放疗剂量",
+      "tail": "50-50.4Gy/25-28次",
+      "source": "CSCO指南2024",
+      "evidence": "根治性放疗标准剂量",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "根治性同步放化疗",
+      "relation": "化疗方案",
+      "tail": "紫杉醇+卡铂周疗或顺铂+5-FU",
+      "source": "CSCO指南2024",
+      "evidence": "同步放化疗化疗方案",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "晚期食管癌一线治疗",
+      "relation": "标准方案",
+      "tail": "化疗+免疫治疗（PD-1抑制剂）",
+      "source": "CSCO指南2024",
+      "evidence": "KEYNOTE-590等研究确立免疫联合化疗地位",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "32804559"
+    },
+    {
+      "head": "晚期食管癌一线",
+      "relation": "帕博利珠单抗+化疗",
+      "tail": "帕博利珠单抗+FP化疗，PD-L1 CPS≥10优先推荐",
+      "source": "KEYNOTE-590/CSCO指南2024",
+      "evidence": "KEYNOTE-590：OS 12.4个月 vs 9.8个月",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "32804559"
+    },
+    {
+      "head": "晚期食管癌一线",
+      "relation": "卡瑞利珠单抗+化疗",
+      "tail": "ESCORT-1st研究，OS优于单纯化疗",
+      "source": "ESCORT-1st/CSCO指南2024",
+      "evidence": "卡瑞利珠单抗+化疗一线适应证",
+      "domain": "csco_guideline",
+      "confidence": 0.90,
+      "pmid": "34000647"
+    },
+    {
+      "head": "晚期食管癌一线",
+      "relation": "信迪利单抗+化疗",
+      "tail": "ORIENT-18研究，中国人群数据",
+      "source": "ORIENT-18/CSCO指南2024",
+      "evidence": "信迪利单抗+化疗一线适应证",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "晚期食管癌一线",
+      "relation": "替雷利珠单抗+化疗",
+      "tail": "RATIONALE-306研究，OS获益显著",
+      "source": "RATIONALE-306/CSCO指南2024",
+      "evidence": "替雷利珠单抗+化疗一线适应证",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "晚期食管鳞癌二线治疗",
+      "relation": "标准治疗",
+      "tail": "单药化疗（多西他赛、紫杉醇、伊立替康）或免疫治疗",
+      "source": "CSCO指南2024",
+      "evidence": "二线治疗以单药化疗为主",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "32133832"
+    },
+    {
+      "head": "晚期食管癌二线",
+      "relation": "帕博利珠单抗",
+      "tail": "PD-L1 CPS≥10的二线及以上治疗",
+      "source": "KEYNOTE-181/CSCO指南2024",
+      "evidence": "帕博利珠单抗二线适应证",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "30675832"
+    },
+    {
+      "head": "晚期食管癌二线",
+      "relation": "卡瑞利珠单抗",
+      "tail": "ESCORT研究，ORR 20.2%",
+      "source": "ESCORT研究/CSCO指南2024",
+      "evidence": "卡瑞利珠单抗二线适应证",
+      "domain": "csco_guideline",
+      "confidence": 0.90,
+      "pmid": "31939686"
+    },
+    {
+      "head": "晚期食管癌三线治疗",
+      "relation": "治疗选择",
+      "tail": "阿帕替尼、化疗、免疫治疗（若未经免疫治疗）",
+      "source": "CSCO指南2024",
+      "evidence": "三线治疗选择有限",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "阿帕替尼",
+      "relation": "食管癌适应证",
+      "tail": "晚期食管鳞癌三线及以上治疗",
+      "source": "CSCO指南2024",
+      "evidence": "阿帕替尼是食管癌抗血管生成选择",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "HER2阳性食管腺癌",
+      "relation": "一线靶向治疗",
+      "tail": "曲妥珠单抗+化疗（帕妥珠单抗+曲妥珠单抗+化疗双靶时代）",
+      "source": "ToGA研究/CSCO指南2024",
+      "evidence": "ToGA研究确立曲妥珠单抗地位",
+      "domain": "csco_guideline",
+      "confidence": 0.95,
+      "pmid": "22586654"
+    },
+    {
+      "head": "HER2阳性食管癌",
+      "relation": "一线治疗升级",
+      "tail": "帕妥珠单抗+曲妥珠单抗+化疗（PD-L1 CPS≥5优先）",
+      "source": "NCCN指南2024/CSCO指南2024",
+      "evidence": "双靶向+化疗疗效更佳",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管胃结合部癌Siewert I型",
+      "relation": "治疗原则",
+      "tail": "按食管癌原则处理",
+      "source": "CSCO指南2024",
+      "evidence": "Siewert I型归属食管癌",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管胃结合部癌Siewert II型",
+      "relation": "治疗原则",
+      "tail": "按胃癌原则处理，可参考食管癌新辅助治疗",
+      "source": "CSCO指南2024",
+      "evidence": "Siewert II型归属食管胃结合部癌",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管胃结合部癌Siewert III型",
+      "relation": "治疗原则",
+      "tail": "按胃癌原则处理",
+      "source": "CSCO指南2024",
+      "evidence": "Siewert III型归属胃癌",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌ERAS管理",
+      "relation": "核心措施",
+      "tail": "术前宣教、禁食水管理、麻醉优化、液体管理、术后镇痛、早期下床、早期进食",
+      "source": "CSCO指南2024/ERAS指南",
+      "evidence": "ERAS加速患者术后康复",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌围手术期营养",
+      "relation": "术前营养支持",
+      "tail": "NRS 2002评分≥3分需营养支持",
+      "source": "CSCO指南2024",
+      "evidence": "营养不良影响手术安全性和预后",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌围手术期营养",
+      "relation": "术后营养支持",
+      "tail": "鼻饲管或空肠造瘘喂养",
+      "source": "CSCO指南2024",
+      "evidence": "术后早期肠内营养促进恢复",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌术后并发症",
+      "relation": "肺部感染",
+      "tail": "最常见并发症，发生率约10-20%",
+      "source": "CSCO指南2024/外科手术学",
+      "evidence": "肺部感染是术后主要死亡原因之一",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌术后并发症",
+      "relation": "吻合口瘘",
+      "tail": "发生率约5-15%，是严重并发症",
+      "source": "CSCO指南2024",
+      "evidence": "吻合口瘘增加术后死亡风险",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌术后并发症",
+      "relation": "喉返神经损伤",
+      "tail": "发生率约5-10%，导致声音嘶哑、呛咳",
+      "source": "CSCO指南2024",
+      "evidence": "喉返神经损伤影响术后生活质量",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌吻合口瘘预防",
+      "relation": "带蒂网膜瓣包裹",
+      "tail": "改善吻合口血供，降低瘘发生率",
+      "source": "CSCO指南2024/外科共识",
+      "evidence": "网膜瓣包裹是有效预防措施",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌MDT",
+      "relation": "实施意义",
+      "tail": "贯穿诊疗全程，制定个体化治疗策略",
+      "source": "CSCO指南2024",
+      "evidence": "MDT提高食管癌综合诊疗水平",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌随访",
+      "relation": "频率",
+      "tail": "术后前2年每3-6个月，后改为每6-12个月",
+      "source": "CSCO指南2024",
+      "evidence": "规律随访早期发现复发",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌随访",
+      "relation": "内容",
+      "tail": "胸腹CT、胃镜、肿瘤标志物（CEA、SCC）",
+      "source": "CSCO指南2024",
+      "evidence": "多参数联合监测",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌疗效评估",
+      "relation": "RECIST 1.1标准",
+      "tail": "用于评估靶向和免疫治疗疗效",
+      "source": "CSCO指南2024",
+      "evidence": "RECIST 1.1是标准评估标准",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌免疫治疗irAE",
+      "relation": "常见类型",
+      "tail": "免疫性肺炎、肝炎、甲状腺炎、皮疹、结肠炎",
+      "source": "CSCO指南2024",
+      "evidence": "免疫治疗需监测irAE",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌免疫治疗irAE管理",
+      "relation": "原则",
+      "tail": "≥2级irAE暂停免疫治疗，≥3级irAE使用糖皮质激素",
+      "source": "CSCO指南2024",
+      "evidence": "及时识别和处理irAE至关重要",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌免疫治疗假性进展",
+      "relation": "发生率",
+      "tail": "约5-10%患者可能出现假性进展",
+      "source": "临床研究",
+      "evidence": "假性进展表现为肿瘤先增大后缩小",
+      "domain": "csco_guideline",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌支持治疗",
+      "relation": "营养支持",
+      "tail": "肠内营养首选，必要时肠外营养补充",
+      "source": "CSCO指南2024",
+      "evidence": "营养支持改善生活质量",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌支持治疗",
+      "relation": "疼痛管理",
+      "tail": "按WHO三阶梯止痛原则",
+      "source": "CSCO指南2024",
+      "evidence": "疼痛是食管癌常见症状",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管梗阻处理",
+      "relation": "姑息治疗",
+      "tail": "支架置入、光动力治疗、射频消融",
+      "source": "CSCO指南2024",
+      "evidence": "姑息性局部治疗改善梗阻症状",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌出血处理",
+      "relation": "急性出血",
+      "tail": "内镜下止血、介入栓塞、必要时手术",
+      "source": "CSCO指南2024",
+      "evidence": "急性出血需紧急处理",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌气管瘘处理",
+      "relation": "治疗策略",
+      "tail": "支架置入、手术修复、保守治疗",
+      "source": "CSCO指南2024",
+      "evidence": "气管瘘是严重并发症",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌靶向治疗生物标志物",
+      "relation": "HER2检测",
+      "tail": "IHC 2+/3+或FISH阳性",
+      "source": "CSCO指南2024",
+      "evidence": "HER2是食管腺癌治疗靶点",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌免疫治疗生物标志物",
+      "relation": "PD-L1 CPS检测",
+      "tail": "CPS≥1或CPS≥10作为不同适应证阈值",
+      "source": "CSCO指南2024",
+      "evidence": "PD-L1 CPS指导免疫治疗",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "MSI/dMMR检测",
+      "relation": "食管癌意义",
+      "tail": "指导免疫治疗选择，MSI-H/dMMR患者可从免疫治疗获益",
+      "source": "CSCO指南2024",
+      "evidence": "MSI是泛癌种免疫治疗标志物",
+      "domain": "csco_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "TMB检测",
+      "relation": "食管癌阈值",
+      "tail": "高TMB（≥10 mut/Mb）可考虑免疫治疗",
+      "source": "CSCO指南2024",
+      "evidence": "TMB是免疫治疗预测标志物",
+      "domain": "csco_guideline",
+      "confidence": 0.90
+    }
+  ]
+}

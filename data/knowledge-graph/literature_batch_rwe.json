@@ -1,0 +1,374 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/esophageal-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "食管癌真实世界数据与预后知识图谱",
+  "domain": "real_world_evidence_prognosis",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "食管癌总体预后",
+      "relation": "5年生存率",
+      "tail": "约30%（整体），早期发现可提高至60-90%",
+      "source": "中国癌症中心数据",
+      "evidence": "食管癌预后与分期密切相关",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "36942248"
+    },
+    {
+      "head": "食管鳞癌预后",
+      "relation": "特有因素",
+      "tail": "脉管侵犯、神经束侵犯与预后相关",
+      "source": "临床研究",
+      "evidence": "ESCC侵袭性较强",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管腺癌预后",
+      "relation": "特有因素",
+      "tail": "与Barrett食管演变过程相关",
+      "source": "临床研究",
+      "evidence": "EAC与GERD密切相关",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌术后预后",
+      "relation": "5年生存率",
+      "tail": "约40-50%",
+      "source": "中国多中心数据",
+      "evidence": "食管癌术后仍有较高复发率",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌新辅助治疗后",
+      "relation": "pCR率影响预后",
+      "tail": "pCR患者5年生存率达60-70%",
+      "source": "CROSS研究长期随访",
+      "evidence": "pCR是预后良好标志",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "20818856"
+    },
+    {
+      "head": "食管癌新辅助治疗",
+      "relation": "术后并发症",
+      "tail": "增加吻合口瘘、肺部感染风险",
+      "source": "真实世界数据",
+      "evidence": "新辅助治疗增加手术复杂性",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌不可切除",
+      "relation": "预后",
+      "tail": "根治性放化疗后2年OS约30-40%",
+      "source": "真实世界数据",
+      "evidence": "不可切除食管癌预后较差",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "晚期食管癌",
+      "relation": "预后",
+      "tail": "未治疗中位生存<6个月，系统治疗可延长至10-15个月",
+      "source": "真实世界数据",
+      "evidence": "系统治疗改善生存",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌复发模式",
+      "relation": "局部复发",
+      "tail": "占复发的40-50%",
+      "source": "临床研究",
+      "evidence": "局部复发与切缘和淋巴结清扫相关",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌复发模式",
+      "relation": "远处转移",
+      "tail": "占复发的50-60%，常见肺、肝、骨",
+      "source": "临床研究",
+      "evidence": "远处转移预后差",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌淋巴结复发",
+      "relation": "发生率",
+      "tail": "颈部和纵隔淋巴结是常见复发部位",
+      "source": "临床研究",
+      "evidence": "淋巴结复发占复发的30-40%",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "切缘状态与预后",
+      "relation": "R0切除",
+      "tail": "5年生存率40-60%",
+      "source": "临床研究",
+      "evidence": "R0切除是预后良好因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "切缘状态与预后",
+      "relation": "R1切除",
+      "tail": "5年生存率10-20%",
+      "source": "临床研究",
+      "evidence": "R1切除预后较差",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "淋巴结清扫数目与预后",
+      "relation": "最低要求",
+      "tail": "至少15枚淋巴结",
+      "source": "CSCO/NCCN指南",
+      "evidence": "充分淋巴结清扫改善分期准确性",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "32133832"
+    },
+    {
+      "head": "阳性淋巴结数目与预后",
+      "relation": "N分期",
+      "tail": "N0优于N1-3，N3预后最差",
+      "source": "AJCC分期",
+      "evidence": "淋巴结转移数目是重要预后因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "肿瘤位置与预后",
+      "relation": "胸上段",
+      "tail": "预后相对较差（手术难度大）",
+      "source": "临床研究",
+      "evidence": "上段食管癌手术复杂性高",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "肿瘤位置与预后",
+      "relation": "胸下段",
+      "tail": "预后相对较好（手术相对简单）",
+      "source": "临床研究",
+      "evidence": "下段食管癌手术效果较好",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "肿瘤分化程度与预后",
+      "relation": "高分化",
+      "tail": "预后较好",
+      "source": "病理研究",
+      "evidence": "分化程度是预后因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "肿瘤分化程度与预后",
+      "relation": "低分化",
+      "tail": "预后较差",
+      "source": "病理研究",
+      "evidence": "低分化癌侵袭性强",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "年龄与预后",
+      "relation": "≥70岁患者",
+      "tail": "新辅助治疗后耐受性可能下降",
+      "source": "真实世界研究",
+      "evidence": "老年食管癌患者治疗需个体化",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "体能状态与预后",
+      "relation": "ECOG PS 0-1",
+      "tail": "预后较好，可耐受积极治疗",
+      "source": "多因素分析",
+      "evidence": "ECOG PS是独立预后因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "中国食管癌特征",
+      "relation": "病理类型",
+      "tail": "90%为鳞癌，与西方腺癌为主不同",
+      "source": "中国癌症中心",
+      "evidence": "中国食管癌病理类型特点",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "32133832"
+    },
+    {
+      "head": "中国食管癌特征",
+      "relation": "发病地区",
+      "tail": "太行山脉附近省份高发",
+      "source": "中国癌症登记数据",
+      "evidence": "中国食管癌有地区聚集性",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95,
+      "pmid": "29561180"
+    },
+    {
+      "head": "食管癌真实世界治疗模式",
+      "relation": "新辅助治疗应用",
+      "tail": "中国约60-70%可切除患者接受新辅助治疗",
+      "source": "中国真实世界数据",
+      "evidence": "新辅助治疗在中国应用广泛",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌真实世界免疫治疗",
+      "relation": "应用现状",
+      "tail": "PD-1抑制剂在一线治疗中广泛应用",
+      "source": "中国真实世界数据",
+      "evidence": "免疫治疗真实世界应用广泛",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌营养状态与预后",
+      "relation": "影响",
+      "tail": "营养不良患者术后并发症增加，生存缩短",
+      "source": "临床研究",
+      "evidence": "营养状态是预后影响因素",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌手术质量与预后",
+      "relation": "手术量影响",
+      "tail": "高手术量中心术后死亡率和并发症率更低",
+      "source": "真实世界研究",
+      "evidence": "手术中心经验影响预后",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌微创手术",
+      "relation": "预后",
+      "tail": "与开胸手术预后相当，恢复更快",
+      "source": "多中心研究",
+      "evidence": "MIE是安全可行的",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌介入治疗",
+      "relation": "支架置入",
+      "tail": "姑息性改善吞咽困难，中位通畅期3-6个月",
+      "source": "真实世界数据",
+      "evidence": "支架是姑息性治疗选择",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌激光治疗",
+      "relation": "应用",
+      "tail": "姑息性改善吞咽困难",
+      "source": "真实世界数据",
+      "evidence": "激光是姑息性治疗选择",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌光动力治疗",
+      "relation": "应用",
+      "tail": "早期癌可行根治性光动力，晚期癌姑息性光动力",
+      "source": "真实世界数据",
+      "evidence": "光动力是内镜下治疗选择",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管癌随访依从性",
+      "relation": "影响",
+      "tail": "规律随访患者复发后二次治疗机会增加",
+      "source": "真实世界研究",
+      "evidence": "随访依从性影响预后",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌康复治疗",
+      "relation": "重要性",
+      "tail": "术后吞咽功能训练改善生活质量",
+      "source": "ERAS指南",
+      "evidence": "康复治疗是综合治疗组成",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌心理支持",
+      "relation": "预后影响",
+      "tail": "心理干预改善生活质量和治疗依从性",
+      "source": "临床研究",
+      "evidence": "心理支持是综合治疗组成",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌疼痛管理",
+      "relation": "重要性",
+      "tail": "有效止痛改善生活质量和治疗依从性",
+      "source": "CSCO指南",
+      "evidence": "疼痛管理是支持治疗核心",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管癌合并症管理",
+      "relation": "COPD",
+      "tail": "COPD患者术后肺部并发症风险增加",
+      "source": "临床研究",
+      "evidence": "合并症影响治疗安全性",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌合并症管理",
+      "relation": "糖尿病",
+      "tail": "糖尿病患者术后吻合口瘘风险增加",
+      "source": "临床研究",
+      "evidence": "糖尿病影响术后愈合",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌多学科协作",
+      "relation": "预后影响",
+      "tail": "MDT讨论患者预后优于无MDT患者",
+      "source": "真实世界研究",
+      "evidence": "MDT改善综合诊疗水平",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌治疗费用与可及性",
+      "relation": "中国现状",
+      "tail": "PD-1抑制剂已纳入医保，提高可及性",
+      "source": "医保数据",
+      "evidence": "治疗可及性改善患者预后",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌姑息治疗时机",
+      "relation": "推荐",
+      "tail": "诊断时即引入姑息治疗",
+      "source": "ESMO指南",
+      "evidence": "早期姑息治疗改善生活质量",
+      "domain": "real_world_evidence_prognosis",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/esophageal-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "食管癌分子分型与生物标志物知识图谱",
+  "domain": "molecular_biology_biomarkers",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "食管鳞癌分子分型",
+      "relation": "ESCC分子亚型",
+      "tail": "分为鳞状分化型、基底样型、腺样型、疣状型",
+      "source": "TCGA ESCC数据",
+      "evidence": "ESCC具有异质性分子特征",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "27401151"
+    },
+    {
+      "head": "食管鳞癌",
+      "relation": "TP53突变频率",
+      "tail": "约80-90%",
+      "source": "TCGA ESCC数据",
+      "evidence": "TP53是ESCC最常见突变",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "27401151"
+    },
+    {
+      "head": "食管鳞癌",
+      "relation": "NOTCH1突变频率",
+      "tail": "约10-20%",
+      "source": "全基因组测序研究",
+      "evidence": "NOTCH1在ESCC中较鳞癌更常见",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85,
+      "pmid": "26335609"
+    },
+    {
+      "head": "食管鳞癌",
+      "relation": "CDKN2A突变频率",
+      "tail": "约20-30%",
+      "source": "TCGA数据",
+      "evidence": "CDKN2A是细胞周期调控基因",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管鳞癌",
+      "relation": "PIK3CA突变频率",
+      "tail": "约5-15%",
+      "source": "TCGA数据",
+      "evidence": "PIK3CA是PI3K通路基因",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管鳞癌",
+      "relation": "FBXW7突变频率",
+      "tail": "约5-10%",
+      "source": "TCGA数据",
+      "evidence": "FBXW7是抑癌基因",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管腺癌分子特征",
+      "relation": "Barrett食管相关",
+      "tail": "与Barrett食管-不典型增生-腺癌序列相关",
+      "source": "临床研究",
+      "evidence": "EAC与BE演变相关",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95
+    },
+    {
+      "head": "食管腺癌",
+      "relation": "HER2过表达率",
+      "tail": "约10-30%",
+      "source": "临床研究",
+      "evidence": "HER2在EAC中较ESCC更常见",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "22586654"
+    },
+    {
+      "head": "食管腺癌",
+      "relation": "KRAS突变率",
+      "tail": "约15-25%",
+      "source": "TCGA数据",
+      "evidence": "KRAS突变在EAC中较ESCC更常见",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85
+    },
+    {
+      "head": "食管腺癌",
+      "relation": "TP53突变频率",
+      "tail": "约50-70%",
+      "source": "TCGA数据",
+      "evidence": "TP53在EAC中突变率低于ESCC",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90
+    },
+    {
+      "head": "HER2检测方法",
+      "relation": "免疫组化（IHC）",
+      "tail": "IHC 3+直接判读阳性，IHC 2+需FISH确认",
+      "source": "CSCO/NCCN指南",
+      "evidence": "IHC是HER2初筛方法",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "22586654"
+    },
+    {
+      "head": "HER2检测方法",
+      "relation": "FISH检测",
+      "tail": "HER2/CEP17比值≥2为阳性",
+      "source": "CSCO/NCCN指南",
+      "evidence": "FISH是HER2确诊方法",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95
+    },
+    {
+      "head": "PD-L1检测",
+      "relation": "评估指标",
+      "tail": "CPS（综合阳性评分）= 阳性细胞数/总肿瘤细胞数×100",
+      "source": "KEYNOTE临床研究",
+      "evidence": "CPS是PD-L1评估标准",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95,
+      "pmid": "32804559"
+    },
+    {
+      "head": "PD-L1检测",
+      "relation": "CPS阈值",
+      "tail": "CPS≥1为阳性，CPS≥10为高表达",
+      "source": "KEYNOTE研究/CSCO指南",
+      "evidence": "不同阈值对应不同适应证",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95
+    },
+    {
+      "head": "PD-L1表达",
+      "relation": "食管鳞癌阳性率",
+      "tail": "约40-50%",
+      "source": "KEYNOTE-590等研究",
+      "evidence": "中国ESCC PD-L1高表达",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "32804559"
+    },
+    {
+      "head": "MSI检测",
+      "relation": "方法",
+      "tail": "PCR检测微卫星不稳定或NGS检测MMR基因",
+      "source": "临床检测指南",
+      "evidence": "MSI是泛癌种标志物",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95
+    },
+    {
+      "head": "MSI-H",
+      "relation": "食管癌发生率",
+      "tail": "约2-5%",
+      "source": "临床数据",
+      "evidence": "MSI-H食管癌可从免疫治疗获益",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85,
+      "pmid": "28548155"
+    },
+    {
+      "head": "dMMR",
+      "relation": "意义",
+      "tail": "错配修复缺陷，提示免疫治疗敏感性",
+      "source": "临床研究",
+      "evidence": "dMMR与MSI-H高度相关",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95
+    },
+    {
+      "head": "TMB检测",
+      "relation": "方法",
+      "tail": "NGS全外显子或靶向测序计算突变数",
+      "source": "临床检测",
+      "evidence": "TMB是免疫治疗预测标志物",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.95
+    },
+    {
+      "head": "TMB",
+      "relation": "食管癌中位水平",
+      "tail": "约3-5 mut/Mb",
+      "source": "TCGA数据",
+      "evidence": "食管癌TMB相对较低",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85,
+      "pmid": "29098234"
+    },
+    {
+      "head": "TMB",
+      "relation": "高TMB阈值",
+      "tail": "≥10 mut/Mb",
+      "source": "NCCN指南",
+      "evidence": "高TMB可考虑免疫治疗",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90,
+      "pmid": "29634428"
+    },
+    {
+      "head": "FGFR1扩增",
+      "relation": "食管癌发生率",
+      "tail": "约5-10%",
+      "source": "临床研究",
+      "evidence": "FGFR1是潜在治疗靶点",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80,
+      "pmid": "24562380"
+    },
+    {
+      "head": "FGFR2/3融合",
+      "relation": "食管癌发生率",
+      "tail": "约2-5%",
+      "source": "临床研究",
+      "evidence": "FGFR融合是靶向治疗潜在靶点",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "NTRK融合",
+      "relation": "食管癌发生率",
+      "tail": "非常罕见，<1%",
+      "source": "临床研究",
+      "evidence": "NTRK融合阳性可使用拉罗替尼/恩曲替尼",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.75
+    },
+    {
+      "head": "ALK融合",
+      "relation": "食管癌发生率",
+      "tail": "约1-2%",
+      "source": "临床研究",
+      "evidence": "ALK阳性可使用克唑替尼等ALK抑制剂",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.75
+    },
+    {
+      "head": "ROS1融合",
+      "relation": "食管癌发生率",
+      "tail": "约1%",
+      "source": "临床研究",
+      "evidence": "ROS1阳性可使用克唑替尼等",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.75
+    },
+    {
+      "head": "BRAF突变",
+      "relation": "食管癌发生率",
+      "tail": "约2-5%",
+      "source": "临床研究",
+      "evidence": "BRAF V600E突变可使用达拉非尼+曲美替尼",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "MET扩增",
+      "relation": "食管癌发生率",
+      "tail": "约2-5%",
+      "source": "临床研究",
+      "evidence": "MET扩增是靶向治疗潜在靶点",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "EGFR突变",
+      "relation": "食管癌发生率",
+      "tail": "约3-8%",
+      "source": "临床研究",
+      "evidence": "EGFR突变在食管腺癌中较常见",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "CEA",
+      "relation": "食管癌应用",
+      "tail": "辅助诊断和随访监测",
+      "source": "CSCO指南",
+      "evidence": "CEA是食管癌常用标志物",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90
+    },
+    {
+      "head": "SCCAg（鳞状细胞癌抗原）",
+      "relation": "食管癌应用",
+      "tail": "食管鳞癌特异标志物",
+      "source": "CSCO指南",
+      "evidence": "SCCAg对ESCC特异性高",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90
+    },
+    {
+      "head": "Cyfra21-1",
+      "relation": "食管癌应用",
+      "tail": "食管癌辅助诊断和监测",
+      "source": "临床研究",
+      "evidence": "Cyfra21-1对食管癌有参考价值",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85
+    },
+    {
+      "head": "ctDNA检测",
+      "relation": "食管癌应用",
+      "tail": "监测治疗反应、耐药和复发",
+      "source": "液体活检研究",
+      "evidence": "ctDNA在食管癌中正在探索",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "CTC（循环肿瘤细胞）",
+      "relation": "食管癌应用",
+      "tail": "预后评估和治疗监测",
+      "source": "临床研究",
+      "evidence": "CTC计数与预后相关",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "食管癌免疫微环境",
+      "relation": "免疫热肿瘤",
+      "tail": "高T细胞浸润，高PD-L1表达，对免疫治疗敏感",
+      "source": "肿瘤免疫学研究",
+      "evidence": "免疫热肿瘤预后相对较好",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90
+    },
+    {
+      "head": "食管癌免疫微环境",
+      "relation": "免疫冷肿瘤",
+      "tail": "低T细胞浸润，对免疫治疗抵抗",
+      "source": "肿瘤免疫学研究",
+      "evidence": "免疫冷肿瘤需要联合治疗策略",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90
+    },
+    {
+      "head": "Treg细胞",
+      "relation": "食管癌免疫逃逸",
+      "tail": "Treg浸润增加与不良预后相关",
+      "source": "临床研究",
+      "evidence": "Treg是免疫抑制细胞",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85
+    },
+    {
+      "head": "MDSC",
+      "relation": "食管癌免疫抑制",
+      "tail": "MDSC升高与免疫治疗疗效负相关",
+      "source": "临床研究",
+      "evidence": "MDSC是免疫抑制细胞",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85
+    },
+    {
+      "head": "肿瘤间质比例",
+      "relation": "预后意义",
+      "tail": "高间质比例（促结缔组织增生型）与不良预后相关",
+      "source": "病理研究",
+      "evidence": "肿瘤间质影响治疗反应",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85
+    },
+    {
+      "head": "EBV感染",
+      "relation": "食管癌意义",
+      "tail": "EBV阳性食管癌对免疫治疗可能敏感",
+      "source": "临床研究",
+      "evidence": "EBV阳性是免疫治疗潜在预测因子",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "HHV8感染",
+      "relation": "食管癌意义",
+      "tail": "与原发性渗出性淋巴瘤相关",
+      "source": "临床研究",
+      "evidence": "HHV8是卡波西肉瘤相关病毒",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.75
+    },
+    {
+      "head": "NGS基因检测Panel",
+      "relation": "推荐基因",
+      "tail": "包括HER2、PD-L1、MSI、TMB、NTRK、FGFR、RET等",
+      "source": "CSCO指南2024",
+      "evidence": "NGS一次检测多个标志物",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90
+    },
+    {
+      "head": " Claudin18.2",
+      "relation": "食管癌表达",
+      "tail": "约30-40%食管癌表达Claudin18.2",
+      "source": "临床研究",
+      "evidence": "Claudin18.2是新兴靶点",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "CLDN18.2靶向治疗",
+      "relation": "代表性药物",
+      "tail": "Zolbetuximab（IMAB362）等单克隆抗体",
+      "source": "临床研究",
+      "evidence": "CLDN18.2是胃癌治疗靶点",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "Wnt/β-catenin通路",
+      "relation": "食管癌改变",
+      "tail": "约10-15%存在通路异常激活",
+      "source": "基础研究",
+      "evidence": "Wnt通路与食管癌干性相关",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "NOTCH通路",
+      "relation": "食管癌意义",
+      "tail": "NOTCH1/2/3突变在ESCC中常见",
+      "source": "TCGA数据",
+      "evidence": "NOTCH通路是ESCC治疗潜在靶点",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85
+    },
+    {
+      "head": "Hippo通路",
+      "relation": "食管癌改变",
+      "tail": "约5-10%存在YAP1过表达",
+      "source": "基础研究",
+      "evidence": "Hippo通路失调与食管癌侵袭相关",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.80
+    },
+    {
+      "head": "转化生长因子β（TGF-β）",
+      "relation": "食管癌意义",
+      "tail": "TGF-β高表达与不良预后和免疫逃逸相关",
+      "source": "临床研究",
+      "evidence": "TGF-β是潜在治疗靶点",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.85
+    },
+    {
+      "head": "血管内皮生长因子（VEGF）",
+      "relation": "食管癌表达",
+      "tail": "VEGF在食管癌中高表达，与血管生成和预后相关",
+      "source": "临床研究",
+      "evidence": "VEGF是抗血管生成治疗靶点",
+      "domain": "molecular_biology_biomarkers",
+      "confidence": 0.90
+    }
+  ]
+}

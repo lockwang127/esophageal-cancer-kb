@@ -2,10 +2,12 @@
 """
 食管癌知识库构建脚本
 将分散的JSON知识图谱文件合并为统一的kb.json和kb_meta.json
+支持原文件和literature_batch_*.json批次文件
 """
 
 import json
 import os
+import sys
 from pathlib import Path
 from datetime import datetime
 
@@ -20,31 +22,71 @@ DOMAINS = {
     "epidemiology": "流行病学数据",
     "biomarkers": "分子标志物",
     "csco_2024": "CSCO 2024指南推荐",
-    "treatment": "治疗方案"
+    "treatment": "治疗方案",
+    "nccn_esmo_guideline": "NCCN/ESMO指南",
+    "molecular_biology_biomarkers": "分子分型与生物标志物",
+    "clinical_trials": "临床试验数据",
+    "real_world_evidence_prognosis": "真实世界数据与预后",
+    "new_targets_drug_development": "新靶点与新药研发"
 }
 
-def load_triplets():
-    """加载所有知识图谱文件"""
+
+def load_all_triplets():
+    """加载knowledge-graph目录下所有JSON文件"""
     all_triplets = []
     file_stats = {}
     
-    for domain, filename in {
-        "epidemiology": "epidemiology.json",
-        "biomarkers": "biomarkers.json",
-        "csco_2024": "csco_2024.json",
-        "treatment": "treatment.json"
-    }.items():
+    if not DATA_DIR.exists():
+        print(f"Error: 数据目录不存在: {DATA_DIR}")
+        sys.exit(1)
+    
+    # 获取所有JSON文件
+    json_files = sorted([f for f in os.listdir(DATA_DIR) if f.endswith('.json')])
+    
+    if not json_files:
+        print(f"Error: 未找到JSON文件 in {DATA_DIR}")
+        sys.exit(1)
+    
+    for filename in json_files:
         filepath = DATA_DIR / filename
-        if filepath.exists():
+        try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                for triplet in data:
-                    triplet['source_file'] = filename
-                all_triplets.extend(data)
-                file_stats[domain] = len(data)
-                print(f"  加载 {filename}: {len(data)} 条")
+            
+            # 支持两种格式：直接数组 或 {"triplets": [...]} 格式
+            if isinstance(data, list):
+                triplets = data
+            elif isinstance(data, dict) and "triplets" in data:
+                triplets = data["triplets"]
+            else:
+                print(f"Warning: {filename} 格式无法识别，跳过")
+                continue
+            
+            # 为每个三元组添加来源文件标记
+            for triplet in triplets:
+                triplet['source_file'] = filename
+            
+            all_triplets.extend(triplets)
+            
+            # 确定domain
+            if triplets and 'domain' in triplets[0]:
+                domain = triplets[0]['domain']
+            else:
+                # 从文件名推断domain
+                domain = filename.replace('literature_batch_', '').replace('.json', '')
+            
+            file_stats[filename] = len(triplets)
+            print(f"  加载 {filename}: {len(triplets)} 条")
+            
+        except json.JSONDecodeError as e:
+            print(f"Error: {filename} JSON解析失败: {e}")
+            sys.exit(1)
+        except Exception as e:
+            print(f"Error: 加载 {filename} 失败: {e}")
+            sys.exit(1)
     
     return all_triplets, file_stats
+
 
 def build_knowledge_base():
     """构建知识库"""
@@ -56,7 +98,7 @@ def build_knowledge_base():
     
     # 加载三元组
     print("加载知识图谱文件...")
-    triplets, file_stats = load_triplets()
+    triplets, file_stats = load_all_triplets()
     
     # 统计信息
     total_triplets = len(triplets)
@@ -95,11 +137,11 @@ def build_knowledge_base():
         },
         "domains": {
             domain: {
-                "name": DOMAINS[domain],
-                "triplet_count": file_stats.get(domain, 0),
+                "name": DOMAINS.get(domain, domain),
+                "triplet_count": len([t for t in triplets if t['domain'] == domain]),
                 "description": ""
             }
-            for domain in DOMAINS.keys()
+            for domain in set(t['domain'] for t in triplets)
         },
         "sources": list(set(t['source'] for t in triplets)),
         "pmids": [t['pmid'] for t in triplets if t.get('pmid')]
@@ -128,6 +170,7 @@ def build_knowledge_base():
     print("=" * 50)
     
     return kb_data, kb_meta
+
 
 if __name__ == "__main__":
     build_knowledge_base()

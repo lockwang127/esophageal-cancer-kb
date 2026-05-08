@@ -1,0 +1,461 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/esophageal-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "食管癌NCCN/ESMO指南知识图谱",
+  "domain": "nccn_esmo_guideline",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "NCCN食管癌指南2025",
+      "relation": "版本",
+      "tail": "NCCN Guidelines Version 1.2025，2024年发布并持续更新",
+      "source": "NCCN Guidelines Version 1.2025",
+      "evidence": "NCCN指南定期更新反映最新循证医学证据",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "NCCN2025"
+    },
+    {
+      "head": "NCCN指南AJCC分期",
+      "relation": "第8版TNM分期",
+      "tail": "食管癌采用AJCC第8版TNM分期",
+      "source": "AJCC Cancer Staging Manual 8th Edition",
+      "evidence": "AJCC分期是预后评估和治疗决策基础",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南T分期",
+      "relation": "T1定义",
+      "tail": "T1a：黏膜层，T1b：黏膜下层",
+      "source": "NCCN Guidelines 2025/AJCC 8th",
+      "evidence": "T1分期根据侵犯深度细分",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南T分期",
+      "relation": "T2定义",
+      "tail": "侵犯固有层，不超出黏膜下层",
+      "source": "NCCN Guidelines 2025/AJCC 8th",
+      "evidence": "T2为侵犯肌层",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南T分期",
+      "relation": "T3定义",
+      "tail": "侵犯外膜层",
+      "source": "NCCN Guidelines 2025/AJCC 8th",
+      "evidence": "T3为侵犯食管壁全层",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南T分期",
+      "relation": "T4a定义",
+      "tail": "侵犯胸膜、心包、奇静脉、膈肌、腹膜",
+      "source": "NCCN Guidelines 2025/AJCC 8th",
+      "evidence": "T4a为可切除病变",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南T分期",
+      "relation": "T4b定义",
+      "tail": "侵犯主动脉、气管、椎体、喉返神经",
+      "source": "NCCN Guidelines 2025/AJCC 8th",
+      "evidence": "T4b为不可切除病变",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南手术评估",
+      "relation": "可切除标准",
+      "tail": "T1a-T2N0可行内镜下治疗或手术，T3N0-1及T4aN0-1可手术切除",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "手术适应证根据TNM分期评估",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南不可切除因素",
+      "relation": "T4b病变",
+      "tail": "侵犯主动脉、气管等不可切除结构",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "T4b是绝对不可切除因素",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南新辅助治疗",
+      "relation": "首选方案",
+      "tail": "紫杉醇+卡铂周疗+41.4Gy放疗（CROSS方案）",
+      "source": "NCCN Guidelines 2025/CROSS研究",
+      "evidence": "CROSS方案是NCCN首选新辅助治疗",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95,
+      "pmid": "20818856"
+    },
+    {
+      "head": "NCCN指南新辅助治疗",
+      "relation": "替代方案",
+      "tail": "氟尿嘧啶+奥沙利铂/顺铂+放疗",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "NCCN提供多种新辅助放化疗方案",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南新辅助免疫治疗",
+      "relation": "研究证据",
+      "tail": "CheckMate-648、KEYNOTE-590等研究支持新辅助免疫",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "新辅助免疫联合化疗显示pCR获益",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.85
+    },
+    {
+      "head": "NCCN指南晚期系统治疗",
+      "relation": "一线首选",
+      "tail": "氟尿嘧啶/卡培他滨+顺铂/奥沙利铂+帕博利珠单抗（鳞癌PD-L1 CPS≥10，腺癌CPS≥10）",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "免疫联合化疗是晚期一线标准",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南晚期一线",
+      "relation": "HER2阳性腺癌",
+      "tail": "曲妥珠单抗+帕博利珠单抗+化疗",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "HER2阳性可从双靶向+免疫获益",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO食管癌指南2024",
+      "relation": "系统治疗推荐",
+      "tail": "与NCCN指南基本一致，强调免疫治疗地位",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "ESMO指南反映欧洲临床实践",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO指南食管鳞癌",
+      "relation": "一线免疫治疗",
+      "tail": "帕博利珠单抗、卡瑞利珠单抗等PD-1抑制剂联合化疗",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "ESMO推荐免疫联合化疗一线治疗",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO指南食管腺癌",
+      "relation": "HER2靶向",
+      "tail": "曲妥珠单抗+化疗，一线推荐",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "HER2阳性腺癌从靶向治疗获益",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南内镜治疗",
+      "relation": "适应证",
+      "tail": "T1aN0可行内镜下黏膜切除术（EMR）或内镜黏膜下剥离术（ESD）",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "早期食管癌内镜治疗可根治",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南ESD",
+      "relation": "优势",
+      "tail": "整块切除，病理评估准确，复发率低",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "ESD是早期食管癌标准治疗",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南姑息放疗",
+      "relation": "剂量",
+      "tail": "30Gy/10次或20Gy/5次用于症状缓解",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "姑息放疗改善吞咽困难",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "NCCN指南近距离放疗",
+      "relation": "适应证",
+      "tail": "局部复发或姑息性治疗",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "近距离放疗增加局部剂量",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.85
+    },
+    {
+      "head": "NCCN指南术后随访",
+      "relation": "前2年",
+      "tail": "每3-6个月病史和体格检查",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "术后高危复发期需密切随访",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南术后CT",
+      "relation": "随访频率",
+      "tail": "前3年每6-12个月胸腹CT，之后每年一次",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "CT监测远处转移",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南胃镜随访",
+      "relation": "适应证",
+      "tail": "新辅助治疗后评估、食管切除术后吻合口监测",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "胃镜监测局部复发和吻合口",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南PET-CT",
+      "relation": "应用",
+      "tail": "用于治疗前分期、评估远处转移",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "PET-CT有助于准确分期",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "ESMO指南分子标志物",
+      "relation": "推荐检测",
+      "tail": "HER2、PD-L1、MSI/dMMR、TMB、NTRK",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "分子标志物指导精准治疗",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO指南液体活检",
+      "relation": "应用价值",
+      "tail": "ctDNA可辅助监测治疗反应和耐药",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "液体活检在食管癌中正在探索",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCCN指南复发治疗",
+      "relation": "局部复发",
+      "tail": "可切除者考虑手术或放化疗",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "局部复发治疗取决于既往治疗史",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "NCCN指南复发治疗",
+      "relation": "远处转移",
+      "tail": "系统性治疗为主",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "远处转移以全身治疗为主",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "NCCN指南食管胃结合部癌",
+      "relation": "Siewert分型",
+      "tail": "I型：远端食管，II型：贲门部，III型：胃体上部",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "Siewert分型指导治疗决策",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO指南Barrett食管",
+      "relation": "监测",
+      "tail": "低级别上皮内瘤变内镜监测，高级别瘤变内镜治疗",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "Barrett食管是食管腺癌癌前病变",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南食管支架",
+      "relation": "适应证",
+      "tail": "恶性食管狭窄姑息治疗",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "支架改善吞咽困难",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "NCCN指南营养管置入",
+      "relation": "适应证",
+      "tail": "新辅助治疗期间或术后营养支持",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "肠内营养管保障营养支持",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO指南免疫维持治疗",
+      "relation": "探索",
+      "tail": "免疫治疗后免疫维持治疗价值正在探索",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "免疫维持治疗可能延长疗效",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCCN指南疗效评估",
+      "relation": "时间点",
+      "tail": "每2-3个月评估一次",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "定期评估指导治疗决策",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南irAE管理",
+      "relation": "监测指标",
+      "tail": "肝功能、甲状腺功能、肺部症状",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "免疫治疗需常规监测irAE",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO指南GerdQ问卷",
+      "relation": "应用",
+      "tail": "用于GERD症状评估，辅助Barrett食管筛查",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "GerdQ评估GERD症状",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.85
+    },
+    {
+      "head": "NCCN指南质子泵抑制剂",
+      "relation": "应用",
+      "tail": "新辅助治疗期间常规使用保护食管黏膜",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "PPI减轻放化疗食管炎",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "ESMO指南早期舒缓治疗",
+      "relation": "时机",
+      "tail": "诊断时即引入舒缓治疗",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "舒缓治疗改善生活质量",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "NCCN指南戒烟限酒",
+      "relation": "重要性",
+      "tail": "吸烟饮酒是食管癌危险因素，戒烟酒改善预后",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "生活方式干预是综合治疗组成",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO指南心理支持",
+      "relation": "必要性",
+      "tail": "食管癌患者焦虑抑郁发生率高，需心理支持",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "心理支持改善生活质量",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "NCCN指南临床试验入组",
+      "relation": "推荐",
+      "tail": "鼓励患者参加临床试验",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "临床试验推动治疗进展",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO指南生育功能保护",
+      "relation": "建议",
+      "tail": "年轻患者治疗前考虑生育功能保护",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "治疗前应讨论生育计划",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "NCCN指南PET指导放疗",
+      "relation": "应用",
+      "tail": "PET-CT勾画靶区，指导放疗计划",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "功能影像优化放疗精准度",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "ESMO指南营养师参与",
+      "relation": "推荐",
+      "tail": "多学科团队中纳入营养师",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "营养专业支持改善营养状态",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南机器人手术",
+      "relation": "推荐",
+      "tail": "经验丰富的中心可开展机器人食管切除术",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "机器人手术提供精准操作",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "ESMO指南靶区勾画",
+      "relation": "CTV定义",
+      "tail": "包括原发灶、亚临床病灶和选择性淋巴结区域",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "精确靶区勾画平衡疗效和毒性",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.90
+    },
+    {
+      "head": "NCCN指南病理报告要素",
+      "relation": "要求",
+      "tail": "肿瘤位置、分化程度、浸润深度、淋巴结数目、环周切缘",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "完整病理报告指导后续治疗",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "ESMO指南ypTNM分期",
+      "relation": "应用",
+      "tail": "新辅助治疗后需重新分期评估",
+      "source": "ESMO Guidelines 2024",
+      "evidence": "ypTNM指导术后治疗决策",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN指南pCR评估",
+      "relation": "意义",
+      "tail": "新辅助治疗后pCR提示预后良好",
+      "source": "NCCN Guidelines 2025",
+      "evidence": "pCR是治疗敏感标志",
+      "domain": "nccn_esmo_guideline",
+      "confidence": 0.95
+    }
+  ]
+}

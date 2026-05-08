@@ -1,0 +1,453 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lockwang127/esophageal-cancer-kb/main/schemas/triplet_schema.json",
+  "description": "食管癌临床试验数据知识图谱",
+  "domain": "clinical_trials",
+  "version": "1.0.0",
+  "updated_at": "2026-05-08",
+  "triplets": [
+    {
+      "head": "CROSS研究",
+      "relation": "研究设计",
+      "tail": "新辅助放化疗（紫杉醇+卡铂+41.4Gy）vs单纯手术",
+      "source": "CROSS研究",
+      "evidence": "全球公认食管癌新辅助治疗标准研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "20818856"
+    },
+    {
+      "head": "CROSS研究",
+      "relation": "主要终点",
+      "tail": "中位OS 49.4个月 vs 24.0个月（单纯手术）",
+      "source": "CROSS研究",
+      "evidence": "新辅助放化疗显著改善OS",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "20818856"
+    },
+    {
+      "head": "CROSS研究",
+      "relation": "pCR率",
+      "tail": "29%",
+      "source": "CROSS研究",
+      "evidence": "CROSS方案pCR率约29%",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "20818856"
+    },
+    {
+      "head": "KEYNOTE-590研究",
+      "relation": "研究设计",
+      "tail": "帕博利珠单抗+FP化疗 vs 安慰剂+化疗一线晚期食管癌",
+      "source": "KEYNOTE-590研究",
+      "evidence": "III期随机对照研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "32804559"
+    },
+    {
+      "head": "KEYNOTE-590研究",
+      "relation": "主要终点OS",
+      "tail": "帕博利珠单抗+化疗组：鳞癌12.6个月，腺癌13.5个月，CPS≥10:15.3个月",
+      "source": "KEYNOTE-590研究",
+      "evidence": "帕博利珠单抗+化疗显著改善OS",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "32804559"
+    },
+    {
+      "head": "KEYNOTE-590研究",
+      "relation": "主要终点PFS",
+      "tail": "帕博利珠单抗+化疗组：鳞癌6.3个月，腺癌6.3个月",
+      "source": "KEYNOTE-590研究",
+      "evidence": "帕博利珠单抗+化疗显著改善PFS",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "32804559"
+    },
+    {
+      "head": "ESCORT-1st研究",
+      "relation": "研究设计",
+      "tail": "卡瑞利珠单抗+FP化疗 vs 安慰剂+化疗一线晚期食管鳞癌",
+      "source": "ESCORT-1st研究",
+      "evidence": "卡瑞利珠单抗一线III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "34000647"
+    },
+    {
+      "head": "ESCORT-1st研究",
+      "relation": "主要终点OS",
+      "tail": "15.3个月 vs 12.0个月（安慰剂组）",
+      "source": "ESCORT-1st研究",
+      "evidence": "卡瑞利珠单抗一线显著改善OS",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "34000647"
+    },
+    {
+      "head": "ORIENT-18研究",
+      "relation": "研究设计",
+      "tail": "信迪利单抗+化疗 vs 安慰剂+化疗一线晚期食管癌",
+      "source": "ORIENT-18研究",
+      "evidence": "信迪利单抗一线III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.90
+    },
+    {
+      "head": "ORIENT-18研究",
+      "relation": "主要终点OS",
+      "tail": "信迪利单抗+化疗组OS显著延长",
+      "source": "ORIENT-18研究",
+      "evidence": "信迪利单抗一线疗效确立",
+      "domain": "clinical_trials",
+      "confidence": 0.90
+    },
+    {
+      "head": "RATIONALE-306研究",
+      "relation": "研究设计",
+      "tail": "替雷利珠单抗+化疗 vs 安慰剂+化疗一线晚期食管癌",
+      "source": "RATIONALE-306研究",
+      "evidence": "替雷利珠单抗一线III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.90
+    },
+    {
+      "head": "RATIONALE-306研究",
+      "relation": "主要终点OS",
+      "tail": "替雷利珠单抗+化疗组显著改善OS",
+      "source": "RATIONALE-306研究",
+      "evidence": "替雷利珠单抗一线疗效确立",
+      "domain": "clinical_trials",
+      "confidence": 0.90
+    },
+    {
+      "head": "KEYNOTE-181研究",
+      "relation": "研究设计",
+      "tail": "帕博利珠单抗 vs 化疗二线及以上晚期食管癌",
+      "source": "KEYNOTE-181研究",
+      "evidence": "帕博利珠单抗二线注册研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "30675832"
+    },
+    {
+      "head": "KEYNOTE-181研究",
+      "relation": "PD-L1 CPS≥10亚组OS",
+      "tail": "帕博利珠单抗组9.6个月 vs 6.9个月（化疗）",
+      "source": "KEYNOTE-181研究",
+      "evidence": "PD-L1高表达对帕博利珠单抗敏感",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "30675832"
+    },
+    {
+      "head": "ESCORT研究",
+      "relation": "研究设计",
+      "tail": "卡瑞利珠单抗 vs 研究者选择化疗二线晚期食管鳞癌",
+      "source": "ESCORT研究",
+      "evidence": "卡瑞利珠单抗二线注册研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "31939686"
+    },
+    {
+      "head": "ESCORT研究",
+      "relation": "主要终点OS",
+      "tail": "8.3个月 vs 6.2个月（化疗对照组）",
+      "source": "ESCORT研究",
+      "evidence": "卡瑞利珠单抗二线显著改善OS",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "31939686"
+    },
+    {
+      "head": "ESCORT-2研究",
+      "relation": "研究设计",
+      "tail": "卡瑞利珠单抗 vs 多西他赛二线晚期食管鳞癌",
+      "source": "ESCORT-2研究",
+      "evidence": "卡瑞利珠单抗二线III期非劣效研究",
+      "domain": "clinical_trials",
+      "confidence": 0.90
+    },
+    {
+      "head": "ToGA研究",
+      "relation": "研究设计",
+      "tail": "曲妥珠单抗+化疗 vs 化疗一线HER2阳性胃/食管胃结合部腺癌",
+      "source": "ToGA研究",
+      "evidence": "曲妥珠单抗一线注册研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "22586654"
+    },
+    {
+      "head": "ToGA研究",
+      "relation": "主要终点OS",
+      "tail": "13.8个月 vs 11.1个月（化疗组）",
+      "source": "ToGA研究",
+      "evidence": "曲妥珠单抗显著改善OS",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "22586654"
+    },
+    {
+      "head": "KEYNOTE-061研究",
+      "relation": "研究设计",
+      "tail": "帕博利珠单抗 vs 紫杉醇二线胃/胃食管连接部癌",
+      "source": "KEYNOTE-061研究",
+      "evidence": "帕博利珠单抗二线研究",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "30675831"
+    },
+    {
+      "head": "KEYNOTE-061研究",
+      "relation": "PD-L1 CPS≥10亚组",
+      "tail": "帕博利珠单抗组OS 10.4个月 vs 8.0个月（紫杉醇）",
+      "source": "KEYNOTE-061研究",
+      "evidence": "PD-L1高表达亚组获益",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "30675831"
+    },
+    {
+      "head": "ATTRACTION-3研究",
+      "relation": "研究设计",
+      "tail": "纳武利尤单抗 vs 化疗三线及以上晚期食管癌",
+      "source": "ATTRACTION-3研究",
+      "evidence": "纳武利尤单抗三线注册研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "31141631"
+    },
+    {
+      "head": "ATTRACTION-3研究",
+      "relation": "主要终点OS",
+      "tail": "10.9个月 vs 8.4个月（化疗组）",
+      "source": "ATTRACTION-3研究",
+      "evidence": "纳武利尤单抗显著改善OS",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "31141631"
+    },
+    {
+      "head": "CheckMate-648研究",
+      "relation": "研究设计",
+      "tail": "纳武利尤单抗±伊匹木单抗 vs 化疗一线晚期食管鳞癌",
+      "source": "CheckMate-648研究",
+      "evidence": "双免疫联合一线III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "33973246"
+    },
+    {
+      "head": "CheckMate-648研究",
+      "relation": "纳武利尤单抗+伊匹木单抗OS",
+      "tail": "13.0个月 vs 9.1个月（化疗组）",
+      "source": "CheckMate-648研究",
+      "evidence": "双免疫联合显著改善OS",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "33973246"
+    },
+    {
+      "head": "CITRUS-EC研究",
+      "relation": "研究设计",
+      "tail": "新辅助卡瑞利珠单抗+化疗 vs 安慰剂+化疗治疗可切除食管鳞癌",
+      "source": "CITRUS-EC研究",
+      "evidence": "新辅助免疫联合III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.85
+    },
+    {
+      "head": "TD-NICE研究",
+      "relation": "研究设计",
+      "tail": "新辅助多西他赛+奥沙利铂+放疗 vs CROSS方案",
+      "source": "TD-NICE研究",
+      "evidence": "新辅助化疗方案优化研究",
+      "domain": "clinical_trials",
+      "confidence": 0.85
+    },
+    {
+      "head": "JCOG9907研究",
+      "relation": "研究设计",
+      "tail": "新辅助化疗 vs 辅助化疗治疗可切除食管癌",
+      "source": "JCOG9907研究",
+      "evidence": "日本新辅助化疗研究",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "24618866"
+    },
+    {
+      "head": "JCOG9907研究",
+      "relation": "结果",
+      "tail": "新辅助化疗组OS优于辅助化疗组",
+      "source": "JCOG9907研究",
+      "evidence": "新辅助化疗地位确立",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "24618866"
+    },
+    {
+      "head": "POET研究",
+      "relation": "研究设计",
+      "tail": "新辅助化疗+手术 vs 新辅助放化疗+手术治疗可切除食管腺癌",
+      "source": "POET研究",
+      "evidence": "德国新辅助治疗研究",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "21982521"
+    },
+    {
+      "head": "POET研究",
+      "relation": "结果",
+      "tail": "新辅助放化疗组OS优于新辅助化疗组",
+      "source": "POET研究",
+      "evidence": "放化疗优于单纯化疗",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "21982521"
+    },
+    {
+      "head": "ARTIST研究",
+      "relation": "研究设计",
+      "tail": "术后放化疗 vs 术后化疗治疗可切除胃癌/胃食管连接部癌",
+      "source": "ARTIST研究",
+      "evidence": "韩国辅助治疗研究",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "23900216"
+    },
+    {
+      "head": "CLASSIC研究",
+      "relation": "研究设计",
+      "tail": "术后卡培他滨+奥沙利铂化疗 vs 观察治疗可切除胃癌/胃食管连接部癌",
+      "source": "CLASSIC研究",
+      "evidence": "韩国辅助治疗研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "22318771"
+    },
+    {
+      "head": "CheckMate-577研究",
+      "relation": "研究设计",
+      "tail": "纳武利尤单抗 vs 安慰剂辅助治疗术后高危食管癌",
+      "source": "CheckMate-577研究",
+      "evidence": "食管癌辅助治疗III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "33657350"
+    },
+    {
+      "head": "CheckMate-577研究",
+      "relation": "主要终点DFS",
+      "tail": "22.4个月 vs 11.0个月（安慰剂组）",
+      "source": "CheckMate-577研究",
+      "evidence": "纳武利尤单抗显著改善DFS",
+      "domain": "clinical_trials",
+      "confidence": 0.95,
+      "pmid": "33657350"
+    },
+    {
+      "head": "RTOG8911研究",
+      "relation": "研究设计",
+      "tail": "术前顺铂+氟尿嘧啶+放疗 vs 单纯手术",
+      "source": "RTOG8911研究",
+      "evidence": "早期新辅助治疗研究",
+      "domain": "clinical_trials",
+      "confidence": 0.90,
+      "pmid": "15138486"
+    },
+    {
+      "head": "PRODIGE5/ACCORD17研究",
+      "relation": "研究设计",
+      "tail": "新辅助FOLFIRINOX化疗 vs 新辅助放化疗治疗可切除食管癌",
+      "source": "PRODIGE5/ACCORD17研究",
+      "evidence": "法国新辅助治疗优化研究",
+      "domain": "clinical_trials",
+      "confidence": 0.85
+    },
+    {
+      "head": "NCT03604991研究",
+      "relation": "研究设计",
+      "tail": "信迪利单抗新辅助治疗可切除食管鳞癌",
+      "source": "NCT03604991（KEEP-G 03）",
+      "evidence": "中国新辅助免疫治疗研究",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "KEYSTONE-001研究",
+      "relation": "研究设计",
+      "tail": "帕博利珠单抗+新辅助放化疗治疗可切除食管癌",
+      "source": "KEYSTONE-001研究",
+      "evidence": "新辅助免疫+放化疗I/II期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "ESCORT-NEO研究",
+      "relation": "研究设计",
+      "tail": "卡瑞利珠单抗+化疗新辅助治疗可切除食管鳞癌",
+      "source": "ESCORT-NEO研究",
+      "evidence": "中国新辅助免疫治疗III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.85
+    },
+    {
+      "head": "INTEGRATE研究",
+      "relation": "研究设计",
+      "tail": "多西他赛+顺铂+氟尿嘧啶+放疗同步放化疗",
+      "source": "INTEGRATE研究",
+      "evidence": "澳大利亚新辅助联合方案研究",
+      "domain": "clinical_trials",
+      "confidence": 0.85,
+      "pmid": "27769793"
+    },
+    {
+      "head": "ARTISTIC研究",
+      "relation": "研究设计",
+      "tail": "阿帕替尼治疗晚期食管鳞癌",
+      "source": "ARTISTIC研究",
+      "evidence": "阿帕替尼三线治疗III期研究",
+      "domain": "clinical_trials",
+      "confidence": 0.85
+    },
+    {
+      "head": "ASTRIS研究",
+      "relation": "研究设计",
+      "tail": "阿法替尼治疗HER2阴性胃/食管癌",
+      "source": "ASTRIS研究",
+      "evidence": "抗HER2治疗失败后研究",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "NCT03657251研究",
+      "relation": "研究设计",
+      "tail": "安罗替尼治疗晚期实体瘤，包括食管癌队列",
+      "source": "NCT03657251",
+      "evidence": "多靶点TKI在食管癌中探索",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    },
+    {
+      "head": "RAMONA研究",
+      "relation": "研究设计",
+      "tail": "雷莫西尤单抗+紫杉醇二线治疗晚期食管癌",
+      "source": "RAMONA研究",
+      "evidence": "抗血管生成联合化疗二线研究",
+      "domain": "clinical_trials",
+      "confidence": 0.85
+    },
+    {
+      "head": "NCT04191673研究",
+      "relation": "研究设计",
+      "tail": "替雷利珠单抗+化疗新辅助治疗可切除食管鳞癌",
+      "source": "NCT04191673",
+      "evidence": "中国新辅助免疫治疗研究",
+      "domain": "clinical_trials",
+      "confidence": 0.80
+    }
+  ]
+}

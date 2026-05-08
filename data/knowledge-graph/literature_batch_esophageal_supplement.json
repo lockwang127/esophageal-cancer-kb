@@ -1,0 +1,313 @@
+[
+  {
+    "head": "食管鳞癌",
+    "relation": "一线免疫联合治疗证据",
+    "tail": "替雷利珠单抗联合化疗（替雷利珠单抗+顺铂+紫杉醇）作为晚期食管鳞癌一线治疗，RATIONALE-306研究显示中位OS 17.2个月",
+    "source": "RATIONALE-306 (NCT03783442) / CSCO食管癌 2025",
+    "evidence": "I级",
+    "domain": "系统治疗",
+    "confidence": 0.92,
+    "pmid": "37504873",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管腺癌",
+    "relation": "HER2阳性靶向治疗",
+    "tail": "曲妥珠单抗联合化疗一线治疗HER2阳性食管腺癌，ToGA研究奠定基础，中位OS 13.8个月",
+    "source": "ToGA (NCT01041455) / NCCN食管癌 2025",
+    "evidence": "I级",
+    "domain": "系统治疗",
+    "confidence": 0.93,
+    "pmid": "20644121",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌新辅助治疗",
+    "relation": "CROSS方案长期生存",
+    "tail": "新辅助放化疗（CROSS方案：卡铂+紫杉醇+41.4Gy放疗）5年生存率47%，10年生存率26%",
+    "source": "CROSS研究 2012/2019",
+    "evidence": "I级",
+    "domain": "新辅助治疗",
+    "confidence": 0.95,
+    "pmid": "31273067",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管鳞癌",
+    "relation": "术前新辅助化疗方案",
+    "tail": "FLOT方案（多西他赛+奥沙利铂+5-FU+亚叶酸）每2周一次，共4周期，术前4周期术后4周期",
+    "source": "FLOT4研究 / ESMO 2019",
+    "evidence": "I级",
+    "domain": "新辅助治疗",
+    "confidence": 0.91,
+    "pmid": "30782678",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌术后辅助治疗",
+    "relation": "辅助免疫治疗适应证",
+    "tail": "pT3-4aN0-2M0食管癌术后病理分期，辅助帕博利珠单抗（KEYNOTE-580辅助队列）DFS改善",
+    "source": "KEYNOTE-580 / NCCN 2025",
+    "evidence": "I级",
+    "domain": "辅助治疗",
+    "confidence": 0.88,
+    "pmid": "34724327",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌Siewert I型",
+    "relation": "手术入路选择",
+    "tail": "经胸食管切除术（Ivor-Lewis或左胸腹联合切口）为Siewert I型金标准，推荐经胸入路",
+    "source": "CSCO食管癌 2025 / NCCN 2025",
+    "evidence": "I级专家共识",
+    "domain": "外科治疗",
+    "confidence": 0.92,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌Siewert III型",
+    "relation": "手术入路选择",
+    "tail": "全胃切除术+下段食管切除，经腹食管切除为主，淋巴结清扫参照胃癌D2原则",
+    "source": "CSCO胃癌/食管癌 2025",
+    "evidence": "I级专家共识",
+    "domain": "外科治疗",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管胃结合部癌",
+    "relation": "辅助治疗方案",
+    "tail": "pT2N+或pT3-4Nany，辅助化疗（XELOX或SOX）推荐；HER2阳性者联合曲妥珠单抗",
+    "source": "CSCO胃癌 2025",
+    "evidence": "I级专家共识",
+    "domain": "辅助治疗",
+    "confidence": 0.88,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌挽救性手术",
+    "relation": "适应证",
+    "tail": "根治性放化疗后局部复发或持续性病灶，身体状况良好，无远处转移",
+    "source": "CSCO食管癌 2025",
+    "evidence": "专家共识",
+    "domain": "外科治疗",
+    "confidence": 0.85,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌淋巴结清扫",
+    "relation": "推荐清扫范围",
+    "tail": "胸腹两野淋巴结清扫，上纵隔+腹腔干淋巴结，上消化道重建需至少清扫15枚淋巴结",
+    "source": "CSCO食管癌 2025",
+    "evidence": "I级专家共识",
+    "domain": "外科治疗",
+    "confidence": 0.92,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌放疗",
+    "relation": "根治性放疗剂量",
+    "tail": "50-50.4Gy/25-28f，每日1次，每周5天，同步化疗（顺铂+5-FU或紫杉醇+卡铂）",
+    "source": "NCCN食管癌 2025 / CSCO食管癌 2025",
+    "evidence": "I级",
+    "domain": "放射治疗",
+    "confidence": 0.93,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌近距离放疗",
+    "relation": "适应证",
+    "tail": "姑息性近距离放疗用于吞咽困难姑息治疗，高剂量率近距离照射可改善梗阻症状",
+    "source": "NCCN食管癌 2025",
+    "evidence": "II级",
+    "domain": "放射治疗",
+    "confidence": 0.8,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管鳞癌",
+    "relation": "分子分型与预后",
+    "tail": "ESCC根据基因表达分为4种亚型（免疫炎症型、热亚型、代谢亚型、增殖亚型），与治疗反应相关",
+    "source": "Cancer Cell 2021 / PMID 33878368",
+    "evidence": "II级",
+    "domain": "基因突变与分子机制",
+    "confidence": 0.85,
+    "pmid": "33878368",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌",
+    "relation": "循环肿瘤DNA应用",
+    "tail": "ctDNA可检测食管癌术后微小残留病灶（MRD），MRD阳性者复发风险显著升高",
+    "source": "JCO 2023 / PMID 37079453",
+    "evidence": "II级",
+    "domain": "基因突变与分子机制",
+    "confidence": 0.82,
+    "pmid": "37079453",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌",
+    "relation": "液体活检临床应用",
+    "tail": "基于血液的基因分型可指导靶向治疗选择，FGFR2扩增、HER2扩增等可用相应靶向药",
+    "source": "NCCN 2025 / JCO 2024",
+    "evidence": "II级",
+    "domain": "临床诊断与分期",
+    "confidence": 0.83,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌吻合口瘘",
+    "relation": "预防措施",
+    "tail": "术中血供保护+吻合口无张力+胸腔引流管管理，术后吻合口瘘发生率5-20%，严重者需二次手术",
+    "source": "CSCO食管癌 2025",
+    "evidence": "I级专家共识",
+    "domain": "围手术期管理",
+    "confidence": 0.88,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌术后营养",
+    "relation": "营养支持方案",
+    "tail": "术后早期肠内营养为主，经鼻饲管或空肠造瘘管给予，术后第1天开始，逐渐增量至全量",
+    "source": "CSCO食管癌 2025 / ERAS指南",
+    "evidence": "I级专家共识",
+    "domain": "围手术期管理",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌术后康复",
+    "relation": "ERAS方案",
+    "tail": "术后早期下床活动、呼吸功能锻炼、疼痛管理、营养支持，降低肺部感染和心肺并发症",
+    "source": "ERAS食管癌外科共识 2023",
+    "evidence": "I级专家共识",
+    "domain": "围手术期管理",
+    "confidence": 0.88,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌术后胃排空障碍",
+    "relation": "发生率与处理",
+    "tail": "发生率3-5%，保守治疗为主（胃肠减压、促动力药、营养支持），必要时行胃造瘘",
+    "source": "CSCO食管癌 2025",
+    "evidence": "专家共识",
+    "domain": "围手术期管理",
+    "confidence": 0.82,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌",
+    "relation": "吸烟饮酒风险",
+    "tail": "吸烟+饮酒双因素使食管鳞癌风险增加50-100倍，戒烟限酒为最重要的一级预防措施",
+    "source": "IARC 2022 / Lancet 2021",
+    "evidence": "I级",
+    "domain": "流行病学与筛查",
+    "confidence": 0.95,
+    "pmid": "34561272",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌高危人群",
+    "relation": "内镜筛查策略",
+    "tail": "年龄≥40岁，合并以下任一：食管癌家族史、吸烟、饮酒、腌制食品、热烫饮食、反流性食管炎",
+    "source": "CSCO食管癌 2025 / 国家癌症筛查指南",
+    "evidence": "I级专家共识",
+    "domain": "流行病学与筛查",
+    "confidence": 0.88,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管早癌",
+    "relation": "内镜下切除指征",
+    "tail": "病变局限在粘膜层（M1-M2），无淋巴结转移风险，符合绝对适应证（m3/sm1分化型≤2cm）可行ESD",
+    "source": "CSCO食管癌 2025 / JES 2022",
+    "evidence": "I级专家共识",
+    "domain": "临床诊断与分期",
+    "confidence": 0.93,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管早癌ESD",
+    "relation": "整块切除率和治愈性切除率",
+    "tail": "ESD整块切除率>95%，治愈性切除率（eCure）70-80%，优于EMR",
+    "source": "JGES指南 2022 / Endoscopy 2021",
+    "evidence": "I级",
+    "domain": "临床诊断与分期",
+    "confidence": 0.91,
+    "pmid": "33171507",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌梗阻",
+    "relation": "姑息性支架置入",
+    "tail": "无法手术的食管癌伴吞咽困难，覆膜自膨式金属支架置入可改善症状，术后24-48h开始进食流质",
+    "source": "NCCN 2025 / CSCO食管癌 2025",
+    "evidence": "I级专家共识",
+    "domain": "支持治疗",
+    "confidence": 0.9,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌营养不良",
+    "relation": "营养评估工具",
+    "tail": "PG-SGA为食管癌首选营养评估工具，NRS 2002为营养风险筛查工具，入院48h内完成评估",
+    "source": "CSPEN肿瘤营养指南 2022",
+    "evidence": "I级专家共识",
+    "domain": "支持治疗",
+    "confidence": 0.88,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌恶病质",
+    "relation": "干预策略",
+    "tail": "食欲刺激剂（甲地孕酮、甲羟孕酮）+营养支持+适度运动，ω-3脂肪酸可能改善体重",
+    "source": "CSCO恶病质指南 2023",
+    "evidence": "II级",
+    "domain": "支持治疗",
+    "confidence": 0.8,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌疼痛管理",
+    "relation": "WHO三阶梯方案",
+    "tail": "轻度疼痛NSAIDs，中度疼痛弱阿片（曲马多/可待因），重度疼痛强阿片（吗啡/羟考酮）+辅助镇痛",
+    "source": "NCCN 2025 姑息治疗",
+    "evidence": "I级专家共识",
+    "domain": "支持治疗",
+    "confidence": 0.92,
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管鳞癌FGFR2",
+    "relation": "FGFR2融合靶向治疗",
+    "tail": "Pemigatinib（佩米替尼）获批用于FGFR2融合/重排的晚期胆管癌，食管癌中FGFR扩增正在探索",
+    "source": "INCB54828-202 (FIGHT-202) / FDA批准",
+    "evidence": "II级",
+    "domain": "新靶点与新药研发",
+    "confidence": 0.78,
+    "pmid": "32169105",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌CLDN18.2",
+    "relation": "靶向治疗探索",
+    "tail": "CLDN18.2在食管腺癌中高表达，Zolbetuximab（佐妥昔单抗）联合化疗一线治疗CLDN18.2+胃癌/GEJ，正在扩展至食管癌",
+    "source": "SPOTLIGHT / GLOW研究 2023",
+    "evidence": "II级",
+    "domain": "新靶点与新药研发",
+    "confidence": 0.78,
+    "pmid": "36723932",
+    "update_date": "2026-05-08"
+  },
+  {
+    "head": "食管癌TROP2",
+    "relation": "ADC药物探索",
+    "tail": "戈沙妥珠单抗（Sacituzumab Govitecan，TROP2-ADC）在晚期食管癌II期研究中显示初步疗效",
+    "source": "NCT04427501 / ASCO 2024",
+    "evidence": "II级",
+    "domain": "新靶点与新药研发",
+    "confidence": 0.75,
+    "update_date": "2026-05-08"
+  }
+]
