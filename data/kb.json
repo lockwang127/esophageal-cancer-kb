@@ -3,8 +3,8 @@
   "kb_name": "食管癌知识库",
   "kb_name_en": "Esophageal Cancer Knowledge Base",
   "description": "基于CSCO指南和临床研究的食管癌结构化知识库",
-  "created_at": "2026-05-08T11:08:10.522420",
-  "updated_at": "2026-05-08T11:08:10.522425",
+  "created_at": "2026-05-08T11:09:23.540818",
+  "updated_at": "2026-05-08T11:09:23.540820",
   "triplets": [
     {
       "head": "食管癌",
